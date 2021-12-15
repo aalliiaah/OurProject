@@ -1,17 +1,52 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Your front-end</title>
+<title>Your front-end</title> 
+
+
 </head>
 
+
 <body>
+   <img src="https://www.codester.com/static/uploads/items/000/018/18510/preview-xl.jpg" height="140px">
+  <h3>FOOD CLASSIFICATIONS SYSTEM</h3>
 <form action="/fasttext">
-	Enter your text to be classified<br>
-	<input type="text" name="statement">
-	<input type="submit" value="Submit">
-</form> 
+ 
+  
+ 
 
 </body>
 
-</html> 
+<fieldset>
+  <label> ENTER YOUR TEXT TO BY CLASSIFIED </label><br>
+ <textarea rows="10" cols="40" name="statement"></textarea>
+
+ <input type="submit" value="Submit">
+ <input type="reset" value="clear text">
+
+ </fieldset>
+
+ <script>     
+function myfunction () {
+  var message=document.getElementById("message");
+  var text=document.getElementById("text");
+  document.getElementById("message").innerHTML=text.value; 
+}
+
+
+
+
+</script>
+ 
+</body>
+
+ 
+</form>
+ 
+ <label>RESULT</label><br>
+ <textarea rows="5" cols="40"></textarea>
+  
+ 
+  
+</html>
